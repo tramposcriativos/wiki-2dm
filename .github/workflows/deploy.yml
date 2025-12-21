@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - v4
-
+  schedule:
+    - cron: "0 3 * * 1" # toda segunda-feira 03:00 UTC
 permissions:
   contents: write
 
