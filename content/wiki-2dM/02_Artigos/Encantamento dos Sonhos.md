@@ -1,10 +1,12 @@
-
 ---
-
-title: Gênese do Encantamento do Sonho  
-date: 2025-01-15  
-tags: [wiki, documentacao, encantamento-do-sonho, calendario-maia, tzolkin]  
-popular: true
+title: Encantamento dos Sonhos
+description: Uma introdução ao conceito de encantamento segundo o Tzolkin
+tags:
+  - tzolkin
+  - maia
+  - espiritualidade
+date: 2025-12-21
+---
 
 ## Contexto
 
