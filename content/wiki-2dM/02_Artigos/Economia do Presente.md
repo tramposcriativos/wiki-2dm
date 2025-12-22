@@ -1,14 +1,16 @@
-
 ---
 title: Encantamento dos Sonhos
 description: Um modelo econômico humanista baseado na cooperação, na Lei do Tempo e na inteligência planetária
+date: 2025-12-21
 tags:
   - tzolkin
+  - sonhos
   - maia
   - espiritualidade
   - economia_humanista
   - cooperacao
-date: 2025-12-21
+---
+
 ---
 
 ## Introdução
