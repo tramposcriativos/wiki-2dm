@@ -1,5 +1,5 @@
 ---
-title: Economia do Presente
+title: Encantamento dos Sonhos
 description: Um modelo econômico humanista baseado na cooperação, na Lei do Tempo e na inteligência planetária
 date: 2025-12-21
 tags:
@@ -177,12 +177,12 @@ Não como discurso, mas como prática viva.
 ---
 ## Tags
 
-#encantamentodosonho #sincronario #kin #tzolkin #calendariomaia #lei_do_tempo #gênese #documentacao
+#abelhas #abelha #salveanatureza #polinizacao #apiterapia #meliponicolas #biodiversidade #sustentabilidade #veneno_de_abelha #agrofloresta #doencas #remedios_naturais #cultura
 
 ---
 
 **Direitos Reservados**  
-Para acessar o conteúdo completo e E-book, ou deseja contribuir com o projeto nos escreva: contatos.2dm@gmail.com  
-**Participação:** Coletivo 2DM e Cooperação Planetária 🌎✨
+Para acessar o conteúdo completo, materiais complementares ou deseja contribuir com o projeto nos escreva: [contatos.2dm@gmail.com](mailto:contatos.2dm@gmail.com)  
+**Participação:** Candeo Bee, Delegado de Juquitiba e Agroflorestor de Comunidades Intencionais 🌎✨
 
 ---
