@@ -183,6 +183,6 @@ Não como discurso, mas como prática viva.
 
 **Direitos Reservados**  
 Para acessar o conteúdo completo, materiais complementares ou deseja contribuir com o projeto nos escreva: [contatos.2dm@gmail.com](mailto:contatos.2dm@gmail.com)  
-**Participação:** Candeo Bee, Delegado de Juquitiba e Agroflorestor de Comunidades Intencionais 🌎✨
+**Participação:** Beni Bara Ale, Fundador da Trampos Criativos, Historiador humanista, kin 207, mão cristal azul, cooperando e dedicando-se ao aprimoramento espiritual, ético e existencial. 🌎✨
 
 ---

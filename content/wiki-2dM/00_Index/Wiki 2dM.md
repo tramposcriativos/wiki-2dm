@@ -1,4 +1,3 @@
-
 ---
 title: Como funciona a Wiki 2DM
 date: 2025-01-15
@@ -7,6 +6,17 @@ popular: true
 description: Entenda a estrutura, organização e objetivos da Wiki 2DM.
 ---
 
+Bem-vinda(o).
+
+Essa é uma wiki viva de conhecimentos interconectados.
+
+# Portais
+- [[Temas]]
+- [[01_Artigos]]
+- [[02_Projetos]]
+- [[03_Pessoas]]
+  
+---
 # Como funciona a Wiki 2DM
 
 A **Wiki 2DM** é uma base de conhecimento construída com **Obsidian** e publicada com **Quartz**, permitindo organização clara, versionamento e navegação rápida.
@@ -76,4 +86,3 @@ Você pode duplicá-lo, alterar o frontmatter e começar a escrever imediatament
 ---
 
 > 💡 Dica: marque artigos importantes com `popular: true` para que apareçam na página inicial.
-

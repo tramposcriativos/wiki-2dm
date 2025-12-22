@@ -1,6 +1,6 @@
 ---
-title: Descrição Pessoal de Beni Bara Ale
-description: RHistoriador humanista, kin 207, mão cristal azul, cooperando e dedicando-se ao aprimoramento espiritual, ético e existencial.
+title: Beni Bara Ale
+description: Historiador humanista, kin 207, mão cristal azul, cooperando e dedicando-se ao aprimoramento espiritual, ético e existencial.
 date: 2025-12-22
 tags:
   - "#historiador"
