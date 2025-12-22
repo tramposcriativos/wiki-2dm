@@ -42,5 +42,5 @@ Seus estudos buscam evidenciar como experiências lúdicas, artísticas e cultur
 
 **Direitos Reservados**  
 Para acessar o conteúdo completo e participar das experiências do Clube da Transição, escreva para: [contatos.2dm@gmail.com](mailto:contatos.2dm@gmail.com)  
-**Participação:** Coletivo 2DM, Beni da Trampos Criativos 🌎✨
-https://ecovidapangeia.com/clube-da-transicao
+**Participação:** Coletivo 2DM & Trampos Criativos 🌎✨
+[https://www.instagram.com/tzolkinagil/](https://www.instagram.com/tzolkinagil/)
