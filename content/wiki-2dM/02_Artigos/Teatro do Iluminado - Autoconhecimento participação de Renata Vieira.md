@@ -1,8 +1,16 @@
-
 ---
-
-# Teatro do Iluminado
-
+title: Teatro do Iluminado Experiência Coletiva e Criativa
+description: Relato e reflexão sobre a vivência no Teatro do Iluminado, explorando coletividade, expressão artística e conexão com o próprio ser.
+date: 2025-12-22
+tags:
+  - teatro
+  - expressão_artística
+  - coletividade
+  - autoconhecimento
+  - criatividade
+  - experiência
+  - performance
+---
 ## Introdução: Um Encontro Lúdico e Transformador
 
 Vamos tomar um cafezinho, né? Aí, caralura… vamos fazer um encontro bacana, interagir de forma lúdica, conversar à vontade.
