@@ -94,8 +94,5 @@ const config: QuartzConfig = {
   },
 }
 
-export default {
-  site: {
-    createdTime: "date",
-  },
-}
+export default config
+
