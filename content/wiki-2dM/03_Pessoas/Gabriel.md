@@ -1,6 +1,6 @@
 ---
 
-title: —  
+title: Gabriel  
 description: Artista e estudante de medicina indígena, kin 185, serpente elétrica vermelha, integrando arte, espiritualidade e cuidado com a natureza.  
 date: 2025-12-22  
 tags:
@@ -23,6 +23,7 @@ tags:
     
 
 ---
+
 ## Intro – que é o KIN
 
 Artista e estudante de medicina indígena, kin 185, serpente elétrica vermelha. Sua energia vital se expressa pela busca de transformação contínua, conexão com a natureza e ativação da força criativa como caminho de equilíbrio entre corpo, espírito e ambiente.

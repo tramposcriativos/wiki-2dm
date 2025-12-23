@@ -1,7 +1,4 @@
 ---
-
----
----
 title: Bianca Benigni  
 description: Auxiliar administrativa e artista, kin 3, noite elétrica azul, dedicada à fotografia conceitual, design gráfico e desenvolvimento artístico pessoal e coletivo.  
 date: 2025-12-22  
