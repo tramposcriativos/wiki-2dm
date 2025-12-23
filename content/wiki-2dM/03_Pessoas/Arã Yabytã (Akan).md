@@ -28,7 +28,7 @@ tags:
 
 ## Intro - que é o KIN
 
-Pesquisador, escritor e poeta, dragão planetário vermelho (28.01.1989). Fundador do coletivo **Dois de Muitos (2dM)** e da plataforma **Jardim Digital Teias**, atua na articulação de práticas regenerativas, redes colaborativas e produções culturais voltadas à transição social, ecológica e espiritual.
+Pesquisador, escritor e poeta, dragão planetário vermelho. Fundador do coletivo **Dois de Muitos (2dM)** e da plataforma **Jardim Digital Teias**, atua na articulação de práticas regenerativas, redes colaborativas e produções culturais voltadas à transição social, ecológica e espiritual.
 
 ## Introdução Pessoal
 
