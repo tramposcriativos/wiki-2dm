@@ -53,45 +53,54 @@ const config: QuartzConfig = {
       },
     },
   },
-  plugins: {
-    transformers: [
-      Plugin.FrontMatter(),
-      Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git", "filesystem"],
-      }),
-      Plugin.SyntaxHighlighting({
-        theme: {
-          light: "github-light",
-          dark: "github-dark",
-        },
-        keepBackground: false,
-      }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
-      Plugin.GitHubFlavoredMarkdown(),
-      Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
-      Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
-    ],
-    filters: [Plugin.RemoveDrafts()],
-    emitters: [
-      Plugin.AliasRedirects(),
-      Plugin.ComponentResources(),
-      Plugin.ContentPage(),
-      Plugin.FolderPage(),
-      Plugin.TagPage(),
-      Plugin.ContentIndex({
-        enableSiteMap: true,
-        enableRSS: true,
-      }),
-      Plugin.Assets(),
-      Plugin.Static(),
-      Plugin.Favicon(),
-      Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
-    ],
-  },
+plugins: {
+  transformers: [
+    Plugin.FrontMatter(),
+    Plugin.CreatedModifiedDate({
+      priority: ["frontmatter", "git", "filesystem"],
+    }),
+    Plugin.SyntaxHighlighting({
+      theme: {
+        light: "github-light",
+        dark: "github-dark",
+      },
+      keepBackground: false,
+    }),
+    Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+    Plugin.GitHubFlavoredMarkdown(),
+    Plugin.TableOfContents(),
+    Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+    Plugin.Description(),
+    Plugin.Latex({ renderEngine: "katex" }),
+  ],
+
+  filters: [
+    Plugin.RemoveDrafts(),
+    Plugin.Filter({
+      filterFn: (page) => {
+        const status = page.frontmatter?.status
+        return status === "approved"
+      },
+    }),
+  ],
+
+  emitters: [
+    Plugin.AliasRedirects(),
+    Plugin.ComponentResources(),
+    Plugin.ContentPage(),
+    Plugin.FolderPage(),
+    Plugin.TagPage(),
+    Plugin.ContentIndex({
+      enableSiteMap: true,
+      enableRSS: true,
+    }),
+    Plugin.Assets(),
+    Plugin.Static(),
+    Plugin.Favicon(),
+    Plugin.NotFoundPage(),
+    Plugin.CustomOgImages(),
+  ],
+},
 }
 
 export default config

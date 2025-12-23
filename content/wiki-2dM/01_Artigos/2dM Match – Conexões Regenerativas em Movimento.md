@@ -3,7 +3,9 @@
 title: 2dM Match – Conexões Regenerativas em Movimento  
 description: Um artigo descritivo e acolhedor sobre a origem do 2dM Match, suas intenções, estrutura inicial (MVP) e a oportunidade de integração ao Trampos Criativos.  
 author: Arã Yabytã (Akan)  
-date: 2025-12-23  
+date: 2025-12-23 
+status: review   # review | approved | archived
+visibility: private 
 tags:
 
 - conexões
