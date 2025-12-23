@@ -128,3 +128,6 @@ Salve as abelhas, pois salvar as abelhas é salvar o mundo. 🌼🐝
     
 
 ---
+**Direitos Reservados**  
+Para acessar o conteúdo completo e materiais complementares, ou se deseja contribuir com o projeto nos escreva: [contatos.2dm@gmail.com](mailto:contatos.2dm@gmail.com)  
+**Participação:** Coletivo 2DM e Ecovila Sustentar 🌎✨
