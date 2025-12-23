@@ -48,15 +48,10 @@ Sua atuação busca equilibrar espiritualidade, responsabilidade e partilha, for
 ## Conexões
 
 - [[Mistagogia]]
-    
 - [[Sincronário e Códigos do Tempo]]
-    
 - [[Escrituras Sagradas]]
-    
 - [[Ciências Místicas]]
-    
 - [[Tempo Sagrado]]
-    
 - [[Expansão da Consciência]]
     
 
@@ -67,4 +62,4 @@ Sua atuação busca equilibrar espiritualidade, responsabilidade e partilha, for
 ---
 **Direitos Reservados**  
 Para acessar o conteúdo completo e participar das experiências do Clube da Transição, escreva para: [contatos.2dm@gmail.com](mailto:contatos.2dm@gmail.com)  
-**Participação:** Coletivo 2DM & Trampos Criativos 🌎✨
+**Participação:** Coletivo 2dM & Trampos Criativos 🌎✨
