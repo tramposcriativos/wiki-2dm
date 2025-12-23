@@ -6,6 +6,23 @@ import * as Plugin from "./quartz/plugins"
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
+
+/**
+ * Controla quais conteúdos entram no build final
+ * (API correta do Quartz v4.x)
+ */
+export const filterContent = (page: any) => {
+  const fm = page.frontmatter ?? {}
+
+  // Remove drafts explicitamente
+  if (fm.draft === true) return false
+
+  // Publica somente conteúdos aprovados
+  if (fm.status !== "approved") return false
+
+  return true
+}
+
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Quartz 4",
@@ -53,55 +70,50 @@ const config: QuartzConfig = {
       },
     },
   },
-plugins: {
-  transformers: [
-    Plugin.FrontMatter(),
-    Plugin.CreatedModifiedDate({
-      priority: ["frontmatter", "git", "filesystem"],
-    }),
-    Plugin.SyntaxHighlighting({
-      theme: {
-        light: "github-light",
-        dark: "github-dark",
-      },
-      keepBackground: false,
-    }),
-    Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
-    Plugin.GitHubFlavoredMarkdown(),
-    Plugin.TableOfContents(),
-    Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
-    Plugin.Description(),
-    Plugin.Latex({ renderEngine: "katex" }),
-  ],
 
-  filters: [
-    Plugin.RemoveDrafts(),
-    Plugin.Filter({
-      filterFn: (page) => {
-        const status = page.frontmatter?.status
-        return status === "approved"
-      },
-    }),
-  ],
+  plugins: {
+    transformers: [
+      Plugin.FrontMatter(),
+      Plugin.CreatedModifiedDate({
+        priority: ["frontmatter", "git", "filesystem"],
+      }),
+      Plugin.SyntaxHighlighting({
+        theme: {
+          light: "github-light",
+          dark: "github-dark",
+        },
+        keepBackground: false,
+      }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.GitHubFlavoredMarkdown(),
+      Plugin.TableOfContents(),
+      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.Description(),
+      Plugin.Latex({ renderEngine: "katex" }),
+    ],
 
-  emitters: [
-    Plugin.AliasRedirects(),
-    Plugin.ComponentResources(),
-    Plugin.ContentPage(),
-    Plugin.FolderPage(),
-    Plugin.TagPage(),
-    Plugin.ContentIndex({
-      enableSiteMap: true,
-      enableRSS: true,
-    }),
-    Plugin.Assets(),
-    Plugin.Static(),
-    Plugin.Favicon(),
-    Plugin.NotFoundPage(),
-    Plugin.CustomOgImages(),
-  ],
-},
+    // Apenas filtros nativos aqui
+    filters: [
+      Plugin.RemoveDrafts(),
+    ],
+
+    emitters: [
+      Plugin.AliasRedirects(),
+      Plugin.ComponentResources(),
+      Plugin.ContentPage(),
+      Plugin.FolderPage(),
+      Plugin.TagPage(),
+      Plugin.ContentIndex({
+        enableSiteMap: true,
+        enableRSS: true,
+      }),
+      Plugin.Assets(),
+      Plugin.Static(),
+      Plugin.Favicon(),
+      Plugin.NotFoundPage(),
+      Plugin.CustomOgImages(),
+    ],
+  },
 }
 
 export default config
-
